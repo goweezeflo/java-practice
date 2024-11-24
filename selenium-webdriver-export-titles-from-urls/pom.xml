@@ -5,8 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.goweezeflo</groupId>
-    <artifactId>selenium-webdriver-export-titles-from-youtube-playlist</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>selenium-webdriver-export-titles-from-urls</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -22,6 +21,12 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v130 -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v130</artifactId>
             <version>${selenium.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl -->
